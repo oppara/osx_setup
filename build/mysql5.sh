@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PREFIX='/usr/local/mysql_versions/'
+PREFIX='/usr/local/'
 PWD=`pwd`
 
 build() {

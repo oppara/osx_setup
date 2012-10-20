@@ -26,22 +26,21 @@ build() {
   --with-config-file-path=${1}/etc/ \
   --with-pear=${1}/pear \
   --enable-cli \
-  --enable-force-cgi-redirect \
   --enable-mbstring \
   --enable-mbregex \
   --enable-zend-multibyte \
   --with-iconv-dir=/usr/local \
-  --with-gettext=/usr/local \
+  --with-gettext=$(brew --prefix gettext) \
   --enable-sockets \
   --enable-ftp \
   --with-curl \
   --with-openssl \
-  --with-mysql=/usr/local/mysql \
-  --with-mysqli=/usr/local/mysql/bin/mysql_config \
+  --with-mysql=$(brew --prefix mysql) \
+  --with-mysqli=$(brew --prefix mysql)/bin/mysql_config \
   --enable-pdo \
-  --with-pdo-mysql=/usr/local/mysql \
-  --with-pdo-pgsql=/usr/local/postgresql \
-  --with-pgsql=/usr/local/postgresql \
+  --with-pdo-mysql=$(brew --prefix mysql) \
+  --with-pdo-pgsql=$(brew --prefix postgresql) \
+  --with-pgsql=$(brew --prefix postgresql) \
   --enable-sqlite-utf8 \
   --enable-zip \
   --with-zlib \
@@ -51,11 +50,10 @@ build() {
   --with-xsl \
   --enable-exif \
   --with-gd \
-  --with-jpeg-dir=/usr/local \
-  --with-png-dir=/usr/local \
-  --with-freetype-dir=/usr/local \
-  --with-t1lib=/usr/local \
-  --with-ttf \
+  --with-jpeg-dir=$(brew --prefix libjpeg) \
+  --with-png-dir=$(brew --prefix libpng) \
+  --with-freetype-dir=$(brew --prefix freetype) \
+  --with-t1lib=$(brew --prefix t1lib) \
   --enable-gd-native-ttf \
   --enable-gd-jis-conv \
   --with-kerberos=/usr \

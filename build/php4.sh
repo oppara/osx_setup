@@ -30,22 +30,22 @@ build() {
   --enable-mbregex \
   --enable-zend-multibyte \
   --with-iconv-dir=/usr/local \
-  --with-gettext=/usr/local \
+  --with-gettext=/Users/oppara/usr \
   --enable-memory-limit \
   --enable-sockets \
   --enable-ftp \
   --with-curl \
   --enable-exif \
   --with-gd \
-  --with-jpeg-dir=/usr/local \
-  --with-png-dir=/usr/local \
-  --with-freetype-dir=/usr/local \
-  --with-t1lib=/usr/local \
+  --with-jpeg-dir=$(brew --prefix libjpeg) \
+  --with-png-dir=$(brew --prefix libpng) \
+  --with-freetype-dir=~/usr \
+  --with-t1lib=~/usr \
   --with-ttf \
   --enable-gd-native-ttf \
   --enable-gd-jis-conv \
-  --with-mysql=/usr/local/mysql \
-  --with-pgsql=/usr/local/postgresql \
+  --with-mysql=$(brew --prefix mysql) \
+  --with-pgsql=$(brew --prefix postgresql) \
   --enable-xml \
   --with-xsl \
   --with-dom \
@@ -62,7 +62,7 @@ build() {
 VER=`basename $PWD`
 PREFIX=${PREFIX}${VER}
 
-build ${PREFIX} 
+build ${PREFIX}
 
 echo "\nPREFIX => ${PREFIX}"
 echo 'TYPE: sudo make install'
