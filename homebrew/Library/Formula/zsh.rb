@@ -12,7 +12,7 @@ class Zsh < Formula
 
   depends_on 'gdbm'
   depends_on 'pcre'
-  depends_on 'oppara/homebrew/ncurses'
+  depends_on 'homebrew/dupes/ncurses'
 
   option 'disable-etcdir', 'Disable the reading of Zsh rc files in /etc'
 
