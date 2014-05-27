@@ -37,6 +37,8 @@ install re2c
 install mcrypt
 install lv
 install nkf
+install lha
+install unar
 install cmigemo
 install imagemagick
 install sqlmap
