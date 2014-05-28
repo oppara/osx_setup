@@ -48,6 +48,7 @@ install bash
 
 install jq
 install homebrew/binary/jsl
+install selenium-server-standalone
 
 install mysql --enable-memcached --with-blackhole-storage-engine --with-archive-storage-engine mysql
 install postgresql
