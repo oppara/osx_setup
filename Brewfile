@@ -67,6 +67,7 @@ install josegonzalez/php/php-build
 install boot2docker
 install homebrew/binary/packer
 
+install https://raw.githubusercontent.com/sorah/envchain/master/brew/envchain.rb
 
 # Remove outdated versions from the cellar
 cleanup
