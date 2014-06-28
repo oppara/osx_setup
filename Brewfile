@@ -54,6 +54,8 @@ install mysql --enable-memcached --with-blackhole-storage-engine --with-archive-
 install postgresql
 
 install go
+install motemen/ghq/ghq
+install peco/peco/peco
 install direnv
 install oppara/homebrew/the_platinum_searcher
 install rbenv
