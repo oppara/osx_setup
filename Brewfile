@@ -64,8 +64,8 @@ install ruby-build
 install plenv
 install perl-build
 install nodenv
-install josegonzalez/php/phpenv
-install josegonzalez/php/php-build
+install --HEAD josegonzalez/php/phpenv
+install --HEAD josegonzalez/php/php-build
 
 install boot2docker
 install homebrew/binary/packer
