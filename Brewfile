@@ -46,6 +46,7 @@ install tree
 install webkit2png
 install bash
 
+install awscli
 install jq
 install yajl
 install homebrew/binary/jsl
