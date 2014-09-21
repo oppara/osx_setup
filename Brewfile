@@ -47,6 +47,7 @@ install webkit2png
 install bash
 
 install jq
+install yajl
 install homebrew/binary/jsl
 install selenium-server-standalone
 
