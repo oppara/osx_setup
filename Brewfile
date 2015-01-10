@@ -82,6 +82,7 @@ install harfbuzz
 install hub
 install icu4c
 install imagemagick
+install ipcalc
 install jenkins
 install jpeg
 install jq
