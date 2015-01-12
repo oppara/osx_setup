@@ -5,6 +5,8 @@
 tap caskroom/cask
 install brew-cask
 cask install alfred
+cask install java
+cask install karabiner
 cask install kobito
 cask install launchrocket
 cask install vagrant-manager
