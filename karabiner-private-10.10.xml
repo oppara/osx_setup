@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<root>
+  <appdef>
+    <appname>iTERM2</appname>
+    <equal>com.googlecode.iterm2</equal>
+  </appdef>
+  <appdef>
+    <appname>MACVIM</appname>
+    <equal>org.vim.MacVim</equal>
+  </appdef>
+  <list>
+    <item>
+      <name>Leave Insert Mode with EISUU (vim keybind apps)</name>
+      <identifier>private.vim_keybind_apps_esc_with_eisuu</identifier>
+      <only>iTERM2,TERMINAL,MACVIM</only>
+      
+      <autogen>
+        __KeyToKey__ 
+        KeyCode::ESCAPE | ModifierFlag::NONE, 
+        KeyCode::ESCAPE, KeyCode::SEMICOLON, ModifierFlag::CONTROL_L, ModifierFlag::SHIFT_L
+      </autogen>
+      
+       <autogen>
+        __KeyToKey__ 
+        KeyCode::BRACKET_LEFT, ModifierFlag::CONTROL_L | ModifierFlag::NONE, 
+        KeyCode::ESCAPE, KeyCode::SEMICOLON, ModifierFlag::CONTROL_L, ModifierFlag::SHIFT_L
+      </autogen>
+      
+      <autogen>
+        __KeyToKey__ 
+        KeyCode::J,  ModifierFlag::CONTROL_L | ModifierFlag::NONE, 
+        KeyCode::ESCAPE, KeyCode::SEMICOLON, ModifierFlag::CONTROL_L, ModifierFlag::SHIFT_L
+      </autogen>
+      
+    </item>
+  </list>
+</root>
