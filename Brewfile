@@ -102,6 +102,8 @@ install lua
 install luajit
 install lv
 install mcrypt
+install mecab
+install mecab-ipadic
 install memcached
 install mercurial
 install mhash
