@@ -6,12 +6,13 @@ set -x
 # https://gitorious.org/wincent/wincent/source/7686bf5bfd0787117c59a187be5447218b29422a:.osx
 # https://github.com/yveslaroche/dotfiles/blob/master/.osx
 # http://threetreeslight.com/post/58009785849/boxen-mac
+# http://baqamore.hatenablog.com/entry/2013/07/31/222438
 
 # # Ask for the administrator password upfront
-# sudo -v
+sudo -v
 
 # # Keep-alive: update existing `sudo` time stamp until setup has finished
-# while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Set standby delay to 24 hours (default is 1 hour)
 sudo pmset -a standbydelay 86400
@@ -36,8 +37,8 @@ defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false
     # "/System/Library/CoreServices/Menu Extras/TextInput.menu" \
     # "/System/Library/CoreServices/Menu Extras/Clock.menu"
 
-# # Set highlight color to graphite
-# defaults write NSGlobalDomain AppleHighlightColor -string "0.780400 0.815700 0.858800"
+# Set highlight color to graphite
+defaults write NSGlobalDomain AppleHighlightColor -string "0.780400 0.815700 0.858800"
 
 # # Set sidebar icon size to small
 # defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
@@ -146,8 +147,8 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool false
 # [10.9] Finder: show status bar
 defaults write com.apple.finder ShowStatusBar -bool true
 
-# [10.9] Finder: show path bar
-defaults write com.apple.finder ShowPathbar -bool true
+# # [10.9] Finder: show path bar
+# defaults write com.apple.finder ShowPathbar -bool true
 
 # [10.9] Require password immediately after sleep or screen saver begins
 defaults write com.apple.screensaver askForPassword -int 1
@@ -156,6 +157,8 @@ defaults write com.apple.screensaver askForPasswordDelay -int 0
 # [10.9] Automatically quit printer app once the print jobs complete
 defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 
+# Mailの添付ファイルプレビューをOFF
+defaults write com.apple.mail DisableInlineAttachmentViewing -bool yes
 
 # # [10.9] Misc `systemsetup` settings: see `man systemsetup`
 # sudo systemsetup -settimezone America/Los_Angeles

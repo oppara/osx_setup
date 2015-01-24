@@ -58,6 +58,7 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/usr/local/Caskroom
 brew install caskroom/cask/brew-cask
 brew cask install alfred
 brew cask install java
+brew cask install eclipse-java
 brew cask install karabiner
 brew cask install kobito
 brew cask install launchrocket
