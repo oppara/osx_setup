@@ -50,6 +50,7 @@ brew install perl-build
 brew install nodenv
 brew install mysql --enable-memcached --with-blackhole-storage-engine --with-archive-storage-engine mysql
 brew install postgresql
+brew install ant
 
 
 ## https://github.com/caskroom
