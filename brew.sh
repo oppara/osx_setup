@@ -23,6 +23,7 @@ brew install hg
 brew install the_silver_searcher
 brew install the_platinum_searcher
 brew install wget --enable-iri
+brew install siege
 brew install mcrypt
 brew install lv
 brew install nkf
