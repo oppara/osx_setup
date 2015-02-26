@@ -52,6 +52,7 @@ brew install nodenv
 brew install mysql --enable-memcached --with-blackhole-storage-engine --with-archive-storage-engine mysql
 brew install postgresql
 brew install ant
+brew install pandoc
 
 
 ## https://github.com/caskroom
