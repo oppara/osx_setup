@@ -3,6 +3,7 @@
 set -eu
 
 # PATH=$(brew --prefix coreutils)"/libexec/gnubin:$PATH"
+brew install git --with-pcre
 brew install coreutils
 brew install findutils --default-names
 brew install gnu-sed --default-names
@@ -13,15 +14,12 @@ brew install zsh --disable-etcdir
 brew install zsh-completions
 brew install vim --with-lua --with-luajit
 brew install tmux
-brew install git --with-pcre
 brew install tig
 brew install hub
 brew install git-now
 brew install git-ftp
 brew install svn
 brew install hg
-brew install the_silver_searcher
-brew install the_platinum_searcher
 brew install wget --enable-iri
 brew install siege
 brew install mcrypt
@@ -40,6 +38,8 @@ brew install motemen/ghq/ghq
 brew install peco/peco/peco
 brew install peco/peco/migemogrep
 brew install direnv
+brew install the_silver_searcher
+brew install the_platinum_searcher
 brew install awscli
 brew install ipcalc
 brew install jq
