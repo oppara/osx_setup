@@ -75,6 +75,7 @@ brew cask install growlnotify
 brew cask install sequel-pro
 brew cask install transmit
 brew cask install 0xed
+brew cask install macvim-kaoriya
 
 # font
 brew cask install oppara/homebrew/font-migu-2m
