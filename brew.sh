@@ -53,6 +53,7 @@ brew install mysql --enable-memcached --with-blackhole-storage-engine --with-arc
 brew install postgresql
 brew install ant
 brew install pandoc
+brew install pstree
 
 
 ## https://github.com/caskroom
