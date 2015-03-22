@@ -30,6 +30,7 @@ brew install mecab
 brew install mecab-ipadic
 brew install lha
 brew install unar
+brew install rar
 brew install imagemagick
 brew install tree
 brew install go
