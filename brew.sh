@@ -55,6 +55,7 @@ brew install postgresql
 brew install ant
 brew install pandoc
 brew install pstree
+brew install fpp
 
 
 ## https://github.com/caskroom
