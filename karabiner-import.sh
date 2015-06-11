@@ -9,7 +9,7 @@ $cli set remap.doublepresscommandQ 1
 /bin/echo -n .
 $cli set repeat.wait 30
 /bin/echo -n .
-$cli set repeat.initial_wait 100
+$cli set repeat.initial_wait 300
 /bin/echo -n .
 $cli set private.app_terminal_esc_with_eisuu 1
 /bin/echo -n .
