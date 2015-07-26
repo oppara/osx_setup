@@ -56,6 +56,7 @@ brew install ant
 brew install pandoc
 brew install pstree
 brew install fpp
+brew install cpanminus
 
 
 ## https://github.com/caskroom
