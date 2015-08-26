@@ -57,6 +57,7 @@ brew install pandoc
 brew install pstree
 brew install fpp
 brew install cpanminus
+brew install q
 
 
 ## https://github.com/caskroom
