@@ -34,7 +34,9 @@ brew install rar
 brew install imagemagick
 brew install tree
 brew install go
-brew install boot2docker
+brew install docker-machine
+brew install docker-compose
+brew install docker-swarm
 brew install motemen/ghq/ghq
 brew install peco/peco/peco
 brew install peco/peco/migemogrep
