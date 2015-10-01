@@ -36,8 +36,8 @@ brew install go
 brew install docker-machine
 brew install docker-compose
 brew install docker-swarm
-brew install motemen/ghq/ghq
-brew install peco/peco/peco
+brew install ghq
+brew install peco
 brew install peco/peco/migemogrep
 brew install direnv
 brew install the_silver_searcher
