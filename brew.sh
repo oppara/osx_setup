@@ -51,7 +51,7 @@ brew install ruby-build
 brew install plenv
 brew install perl-build
 brew install nodenv
-brew install mysql --enable-memcached --with-blackhole-storage-engine --with-archive-storage-engine mysql
+brew install mysql
 brew install postgresql
 brew install ant
 brew install pandoc
