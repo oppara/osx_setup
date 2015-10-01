@@ -5,8 +5,8 @@ set -eu
 # PATH=$(brew --prefix coreutils)"/libexec/gnubin:$PATH"
 brew install git --with-pcre
 brew install coreutils
-brew install findutils --default-names
-brew install gnu-sed --default-names
+brew install findutils --with-default-names
+brew install gnu-sed --with-default-names
 brew install oppara/homebrew/wcwidth
 brew install oppara/homebrew/kcode
 brew install reattach-to-user-namespace --wrap-pbcopy-and-pbpaste --wrap-launchctl
