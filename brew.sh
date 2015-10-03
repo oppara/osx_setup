@@ -59,6 +59,7 @@ brew install pstree
 brew install fpp
 brew install cpanminus
 brew install q
+brew install phantomjs
 
 
 ## https://github.com/caskroom
