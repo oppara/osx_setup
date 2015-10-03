@@ -102,3 +102,5 @@ brew cask install quicklook-colorxml
 
 
 brew cleanup
+
+chsh -s /usr/local/bin/zsh
