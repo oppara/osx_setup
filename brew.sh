@@ -2,6 +2,8 @@
 
 set -eu
 
+brew tap homebrew/versions
+
 # PATH=$(brew --prefix coreutils)"/libexec/gnubin:$PATH"
 brew install git --with-pcre
 brew install coreutils
