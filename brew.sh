@@ -62,6 +62,7 @@ brew install fpp
 brew install cpanminus
 brew install q
 brew install phantomjs
+brew install ghostscript
 
 
 ## https://github.com/caskroom
