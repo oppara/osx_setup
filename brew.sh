@@ -63,6 +63,7 @@ brew install cpanminus
 brew install q
 brew install phantomjs
 brew install ghostscript
+brew install gibo
 
 
 ## https://github.com/caskroom
