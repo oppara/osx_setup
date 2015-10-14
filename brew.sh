@@ -81,7 +81,6 @@ brew cask install vagrant
 
 brew cask install appcleaner
 brew cask install clipmenu
-brew cask install coteditor
 brew cask install growlnotify
 brew cask install sequel-pro
 brew cask install transmit
