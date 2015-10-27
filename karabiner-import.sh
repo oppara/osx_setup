@@ -11,7 +11,7 @@ $cli set repeat.wait 30
 /bin/echo -n .
 $cli set repeat.initial_wait 300
 /bin/echo -n .
-$cli set private.app_terminal_esc_with_eisuu 1
+$cli set remap.mouse_keys_mode_2 1
 /bin/echo -n .
 $cli set private.vim_keybind_apps_esc_with_eisuu 1
 /bin/echo -n .
