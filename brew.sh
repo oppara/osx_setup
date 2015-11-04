@@ -6,32 +6,24 @@ brew tap homebrew/versions
 
 # PATH=$(brew --prefix coreutils)"/libexec/gnubin:$PATH"
 brew install git --with-pcre
-brew install coreutils
-brew install findutils --with-default-names
-brew install gnu-sed --with-default-names
 brew install oppara/homebrew/wcwidth
 brew install oppara/homebrew/kcode
-brew install reattach-to-user-namespace --wrap-pbcopy-and-pbpaste --wrap-launchctl
+brew install reattach-to-user-namespace --with-wrap-pbcopy-and-pbpaste --with-wrap-launchctl
 brew install zsh --disable-etcdir
 brew install zsh-completions
+brew install findutils --with-default-names
+brew install gnu-sed --with-default-names
 brew install vim --with-lua --with-luajit
 brew install tmux
 brew install tig
-brew install hub
 brew install git-now
-brew install git-ftp
+brew install hub
 brew install svn
 brew install hg
-brew install wget --enable-iri
-brew install siege
-brew install mcrypt
 brew install lv
 brew install nkf
 brew install cmigemo
-brew install mecab
-brew install mecab-ipadic
-brew install lha
-brew install unar
+brew install ctags
 brew install imagemagick
 brew install tree
 brew install go
@@ -55,24 +47,18 @@ brew install perl-build
 brew install nodenv
 brew install mysql
 brew install postgresql
-brew install ant
 brew install pandoc
-brew install pstree
 brew install fpp
 brew install cpanminus
 brew install q
-brew install phantomjs
-brew install ghostscript
+brew install gibo
 
 
 ## https://github.com/caskroom
 export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/usr/local/Caskroom"
 brew install caskroom/cask/brew-cask
 brew cask install alfred
-brew cask install java
-brew cask install eclipse-java
 brew cask install karabiner
-brew cask install kobito
 brew cask install launchrocket
 brew cask install virtualbox
 brew cask install vagrant-manager
@@ -80,12 +66,8 @@ brew cask install vagrant
 
 brew cask install appcleaner
 brew cask install clipmenu
-brew cask install coteditor
-brew cask install growlnotify
-brew cask install sequel-pro
 brew cask install transmit
 brew cask install 0xed
-brew cask install macvim-kaoriya
 
 # font
 brew cask install oppara/homebrew/font-migu-2m
@@ -102,7 +84,6 @@ brew cask install suspicious-package
 brew cask install webpquicklook
 # brew cask install quicklook-japanese-text
 brew cask install quicklook-colorxml
-
 
 brew cleanup
 
