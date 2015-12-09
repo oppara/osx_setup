@@ -52,6 +52,7 @@ brew install fpp
 brew install cpanminus
 brew install q
 brew install gibo
+brew install ccat
 
 
 ## https://github.com/caskroom
