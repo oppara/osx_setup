@@ -64,6 +64,7 @@ brew cask install launchrocket
 brew cask install virtualbox
 brew cask install vagrant-manager
 brew cask install vagrant
+brew cask install java
 
 brew cask install appcleaner
 brew cask install clipmenu
