@@ -53,6 +53,7 @@ brew install cpanminus
 brew install q
 brew install gibo
 brew install ccat
+brew install p7zip
 
 
 ## https://github.com/caskroom
