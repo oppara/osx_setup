@@ -44,7 +44,6 @@ brew install rbenv
 brew install ruby-build
 brew install plenv
 brew install perl-build
-brew install nodenv
 brew install mysql
 brew install postgresql
 brew install pandoc
@@ -54,6 +53,7 @@ brew install q
 brew install gibo
 brew install ccat
 brew install p7zip
+brew install node
 
 
 ## https://github.com/caskroom
