@@ -52,7 +52,10 @@ brew install cpanminus
 brew install q
 brew install gibo
 brew install ccat
+brew install p7zip
 brew install node
+brew install ncurses
+brew link ncurses --force --overwrite
 
 
 ## https://github.com/caskroom
