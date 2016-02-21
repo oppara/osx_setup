@@ -56,6 +56,7 @@ brew install p7zip
 brew install node
 brew install ncurses
 brew link ncurses --force --overwrite
+brew install argon/mas/mas
 
 
 ## https://github.com/caskroom
