@@ -39,6 +39,7 @@ brew install monochromegane/pt/pt
 brew install awscli
 brew install ipcalc
 brew install jq
+brew install caius/jo/jo
 brew install homebrew/binary/jsl
 brew install rbenv
 brew install ruby-build
