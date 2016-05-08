@@ -77,7 +77,9 @@ brew cask install transmit
 brew cask install 0xed
 
 # font
-brew cask install oppara/homebrew/font-migu-2m
+brew tap caskroom/fonts
+brew cask install font-hack
+brew cask install font-migu-2m
 
 # quicklook
 brew cask install betterzipql
