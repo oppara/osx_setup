@@ -180,23 +180,23 @@
 	<key>CursorColor</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGFRZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
-	AAGGoKMHCA9VJG51bGzTCQoLDA0OVU5TUkdCXE5TQ29sb3JTcGFjZVYkY2xhc3NPEA8x
-	IDAuNTAxOTYwODEgMAAQAYAC0hAREhNaJGNsYXNzbmFtZVgkY2xhc3Nlc1dOU0NvbG9y
-	ohIUWE5TT2JqZWN0XxAPTlNLZXllZEFyY2hpdmVy0RcYVHJvb3SAAQgRGiMtMjc7QUhO
-	W2J0dnh9iJGZnKW3ur8AAAAAAAABAQAAAAAAAAAZAAAAAAAAAAAAAAAAAAAAwQ==
+	AAGGoKMHCA9VJG51bGzTCQoLDA0OVU5TUkdCXE5TQ29sb3JTcGFjZVYkY2xhc3NMMC41
+	IDAuNSAwLjUAEAGAAtIQERITWiRjbGFzc25hbWVYJGNsYXNzZXNXTlNDb2xvcqISFFhO
+	U09iamVjdF8QD05TS2V5ZWRBcmNoaXZlctEXGFRyb290gAEIERojLTI3O0FITltib3Fz
+	eIOMlJegsrW6AAAAAAAAAQEAAAAAAAAAGQAAAAAAAAAAAAAAAAAAALw=
 	</data>
 	<key>CursorType</key>
 	<integer>0</integer>
 	<key>EastAsianAmbiguousWide</key>
-	<true/>
+	<false/>
 	<key>Font</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGGBlYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
 	AAGGoKQHCBESVSRudWxs1AkKCwwNDg8QVk5TU2l6ZVhOU2ZGbGFnc1ZOU05hbWVWJGNs
-	YXNzI0AuAAAAAAAAEBCAAoADXxAZTSsxVk0rSVBBRy1jaXJjbGUtUmVndWxhctITFBUW
-	WiRjbGFzc25hbWVYJGNsYXNzZXNWTlNGb250ohUXWE5TT2JqZWN0XxAPTlNLZXllZEFy
-	Y2hpdmVy0RobVHJvb3SAAQgRGiMtMjc8QktSW2JpcnR2eJSZpK20t8DS1doAAAAAAAAB
-	AQAAAAAAAAAcAAAAAAAAAAAAAAAAAAAA3A==
+	YXNzI0AsAAAAAAAAEBCAAoADXxAPTWlndS0yTS1SZWd1bGFy0hMUFRZaJGNsYXNzbmFt
+	ZVgkY2xhc3Nlc1ZOU0ZvbnSiFRdYTlNPYmplY3RfEA9OU0tleWVkQXJjaGl2ZXLRGhtU
+	cm9vdIABCBEaIy0yNzxCS1JbYmlydHZ4io+ao6qttsjL0AAAAAAAAAEBAAAAAAAAABwA
+	AAAAAAAAAAAAAAAAAADS
 	</data>
 	<key>FontAntialias</key>
 	<true/>
@@ -207,7 +207,7 @@
 	<key>Linewrap</key>
 	<true/>
 	<key>ProfileCurrentVersion</key>
-	<real>2.02</real>
+	<real>2.04</real>
 	<key>RunCommandAsShell</key>
 	<false/>
 	<key>ScrollbackLines</key>
@@ -267,6 +267,8 @@
 	<true/>
 	<key>VisualBell</key>
 	<false/>
+	<key>VisualBellOnlyWhenMuted</key>
+	<true/>
 	<key>WindowTitle</key>
 	<string></string>
 	<key>blackColour</key>
@@ -344,7 +346,7 @@
 	ZmZmg83MTD8AAAGG
 	</data>
 	<key>rowCount</key>
-	<integer>40</integer>
+	<integer>42</integer>
 	<key>shellExitAction</key>
 	<integer>1</integer>
 	<key>type</key>
