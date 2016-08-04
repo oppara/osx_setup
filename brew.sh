@@ -34,7 +34,7 @@ brew install peco
 brew install peco/peco/migemogrep
 brew install direnv
 brew install the_silver_searcher
-brew install monochromegane/pt/pt
+brew install pt
 brew install awscli
 brew install ipcalc
 brew install jq
