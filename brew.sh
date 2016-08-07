@@ -67,8 +67,8 @@ brew cask install karabiner
 brew cask install onyx
 brew cask install launchrocket
 brew cask install virtualbox
-brew cask install vagrant-manager
 brew cask install vagrant
+brew cask install vagrant-manager
 brew cask install java
 brew cask install docker
 
