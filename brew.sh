@@ -6,6 +6,9 @@ brew tap homebrew/versions
 
 # PATH=$(brew --prefix coreutils)"/libexec/gnubin:$PATH"
 brew install git --with-pcre
+brew install autoconf
+brew install automake
+brew install libtool
 brew install oppara/homebrew/wcwidth
 brew install oppara/homebrew/kcode
 brew install reattach-to-user-namespace --with-wrap-pbcopy-and-pbpaste --with-wrap-launchctl
