@@ -74,6 +74,7 @@ brew cask install vagrant
 brew cask install vagrant-manager
 brew cask install java
 brew cask install docker
+brew cask install google-chrome
 
 brew cask install appcleaner
 brew cask install clipmenu
