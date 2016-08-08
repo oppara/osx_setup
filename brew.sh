@@ -9,7 +9,7 @@ brew install git --with-pcre
 brew install autoconf
 brew install automake
 brew install libtool
-brew install oppara/homebrew/wcwidth
+#brew install oppara/homebrew/wcwidth
 brew install oppara/homebrew/kcode
 brew install reattach-to-user-namespace --with-wrap-pbcopy-and-pbpaste --with-wrap-launchctl
 brew install zsh --disable-etcdir
@@ -41,7 +41,7 @@ brew install pt
 brew install awscli
 brew install ipcalc
 brew install jq
-brew install caius/jo/jo
+brew install jo
 brew install homebrew/binary/jsl
 brew install rbenv
 brew install ruby-build
@@ -57,8 +57,8 @@ brew install gibo
 brew install ccat
 brew install p7zip
 brew install node
-brew install ncurses
-brew link ncurses --force --overwrite
+# brew install ncurses
+# brew link ncurses --force --overwrite
 brew install argon/mas/mas
 
 
