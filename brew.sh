@@ -32,6 +32,7 @@ brew install tree
 brew install go
 brew install docker-machine
 brew install docker-compose
+brew install packer
 brew install ghq
 brew install peco
 brew install peco/peco/migemogrep
