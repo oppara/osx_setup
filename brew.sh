@@ -30,9 +30,6 @@ brew install ctags
 brew install imagemagick
 brew install tree
 brew install go
-brew install docker-machine
-brew install docker-compose
-brew install packer
 brew install ghq
 brew install peco
 brew install peco/peco/migemogrep
@@ -74,7 +71,6 @@ brew cask install virtualbox
 brew cask install vagrant
 brew cask install vagrant-manager
 brew cask install java
-brew cask install docker
 brew cask install google-chrome
 
 brew cask install appcleaner
