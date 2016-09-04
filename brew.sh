@@ -20,6 +20,7 @@ brew install vim --with-lua --with-luajit
 brew install tmux
 brew install tig
 brew install git-now
+brew install bfg
 brew install git-lfs
 brew install hub
 brew install svn
