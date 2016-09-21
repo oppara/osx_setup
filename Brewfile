@@ -19,6 +19,7 @@ brew 'xz'
 brew 'automake'
 brew 'awscli'
 brew 'bfg'
+brew 'boost'
 brew 'pcre'
 brew 'gettext'
 brew 'git', args: ['with-pcre']
@@ -40,6 +41,8 @@ brew 'gnu-getopt'
 brew 'git-now'
 brew 'gmp'
 brew 'gnu-sed', args: ['with-default-names']
+brew 'lua'
+brew 'highlight'
 brew 'hub'
 brew 'libtool'
 brew 'jpeg'
@@ -49,7 +52,6 @@ brew 'ipcalc'
 brew 'oniguruma'
 brew 'jq'
 brew 'libevent'
-brew 'lua'
 brew 'luajit'
 brew 'lv'
 brew 'readline'
@@ -109,7 +111,8 @@ cask 'qlprettypatch'
 cask 'qlstephen'
 cask 'quicklook-csv'
 cask 'quicklook-json'
-cask 'spamsieve'
+cask 'skype'
+cask 'slack'
 cask 'suspicious-package'
 cask 'the-unarchiver'
 cask 'transmission'
@@ -120,18 +123,18 @@ cask 'virtualbox'
 cask 'vlc'
 cask 'webpquicklook'
 cask 'youtube-to-mp3'
-mas 'Simplenote', id: 692867256
-mas 'WinArchiver Lite', id: 414855915
-mas 'Kindle', id: 405399194
-mas 'Translate App', id: 936484167
-mas 'Twitter', id: 409789998
-mas 'Skitch', id: 425955336
-mas 'Kobito', id: 896624060
-mas '1Password', id: 443987910
-mas 'StuffIt Expander', id: 405580712
-mas 'Witch', id: 412485838
 mas 'Xcode', id: 497799835
-mas 'Reeder', id: 880001334
-mas 'Numbers', id: 409203825
+mas 'Kindle', id: 405399194
+mas 'Twitter', id: 409789998
+mas 'StuffIt Expander', id: 405580712
+mas 'WinArchiver Lite', id: 414855915
+mas '1Password', id: 443987910
+mas 'Skitch', id: 425955336
+mas 'Translate App', id: 936484167
+mas 'Witch', id: 412485838
 mas 'CotEditor', id: 1024640650
+mas 'Reeder', id: 880001334
 mas 'Dash', id: 458034879
+mas 'Kobito', id: 896624060
+mas 'Numbers', id: 409203825
+mas 'Simplenote', id: 692867256
