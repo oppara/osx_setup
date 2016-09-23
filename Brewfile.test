@@ -1,0 +1,15 @@
+cask_args appdir: '/Applications'
+tap 'caskroom/cask'
+tap 'homebrew/bundle'
+tap 'homebrew/core'
+tap 'oppara/homebrew'
+brew 'git', args: ['with-pcre']
+brew 'go'
+brew 'ghq'
+brew 'tmux'
+brew 'vim', args: ['with-lua', 'with-luajit']
+brew 'zsh', args: ['without-etcdir']
+brew 'zsh-completions'
+brew 'oppara/homebrew/wcwidth'
+cask '0xed'
+cask 'karabiner'
