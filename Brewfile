@@ -106,6 +106,7 @@ cask 'liteicon'
 cask 'macs-fan-control'
 cask 'mplayerx'
 cask 'qlcolorcode'
+cask 'qlimagesize'
 cask 'qlmarkdown'
 cask 'qlprettypatch'
 cask 'qlstephen'
@@ -128,6 +129,7 @@ mas 'Xcode', id: 497799835
 mas 'Kindle', id: 405399194
 mas 'Twitter', id: 409789998
 mas 'StuffIt Expander', id: 405580712
+mas 'Microsoft Remote Desktop', id: 715768417
 mas 'WinArchiver Lite', id: 414855915
 mas '1Password', id: 443987910
 mas 'Skitch', id: 425955336
