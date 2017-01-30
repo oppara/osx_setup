@@ -123,6 +123,7 @@ cask 'virtualbox'
 cask 'vlc'
 cask 'webpquicklook'
 cask 'youtube-to-mp3'
+cask 'hammerspoon'
 mas 'Kindle', id: 405399194
 mas 'Translate App', id: 936484167
 mas 'StuffIt Expander', id: 405580712
