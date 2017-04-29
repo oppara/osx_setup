@@ -28,6 +28,7 @@ brew 'cmigemo'
 brew 'cpanminus'
 brew 'ctags'
 brew 'direnv'
+brew 'emojify'
 brew 'findutils', args: ['with-default-names']
 brew 'fpp'
 brew 'libpng'
