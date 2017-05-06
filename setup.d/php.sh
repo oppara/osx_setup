@@ -4,6 +4,8 @@ set -eu
 PHP_VERSION="7.1"
 COMPOSER_URL="https://getcomposer.org/installer"
 COMPOSER_PATH="/usr/local/bin/composer"
+WP_CLI_URL="https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar"
+WP_CLI_PATH="/usr/local/bin/wp"
 
 # https://php-osx.liip.ch/
 curl -s https://php-osx.liip.ch/install.sh | bash -s ${PHP_VERSION}
@@ -24,3 +26,11 @@ composer global require techlivezheng/phpctags
 
 export PATH="${PATH}:${HOME}/.composer/vendor/bin"
 
+
+# wordpress
+curl  ${WP_CLI_URL} -o ${WP_CLI_PATH}
+chmod 0755 ${WP_CLI_PATH}
+
+composer global require "wp-coding-standards/wpcs:*"
+phpcs --config-set installed_paths ~/.composer/vendor/wp-coding-standards/wpcs/
+phpcs -i
