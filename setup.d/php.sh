@@ -17,11 +17,10 @@ mv composer.phar ${COMPOSER_PATH}
 composer selfupdate
 
 composer global require stecman/composer-bash-completion-plugin dev-master
-composer global require friendsofphp/php-cs-fixer
-composer global require squizlabs/php_codesniffer
 composer global require phpunit/phpunit
-composer global require phpunit/phpunit-skeleton-generator
-composer global require "fxp/composer-asset-plugin:^1.2.0"
+composer global require squizlabs/php_codesniffer
+composer global require phpmd/phpmd
+composer global require techlivezheng/phpctags
 
 export PATH="${PATH}:${HOME}/.composer/vendor/bin"
 
