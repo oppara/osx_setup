@@ -12,6 +12,8 @@ curl -s https://php-osx.liip.ch/install.sh | bash -s ${PHP_VERSION}
 sudo  sh -c "echo 'date.timezone = Asia/Tokyo' > /usr/local/php5/php.d/99-my.ini"
 export PATH=/usr/local/php5/bin:${PATH}
 
+
+# composer
 curl -sSk ${COMPOSER_URL} | php
 chmod +x composer.phar
 mv composer.phar ${COMPOSER_PATH}
