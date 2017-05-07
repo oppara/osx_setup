@@ -24,7 +24,6 @@ composer global require stecman/composer-bash-completion-plugin dev-master
 composer global require phpunit/phpunit
 composer global require squizlabs/php_codesniffer
 composer global require phpmd/phpmd
-composer global require techlivezheng/phpctags
 
 export PATH="${PATH}:${HOME}/.composer/vendor/bin"
 
