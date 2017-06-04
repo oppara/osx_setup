@@ -22,6 +22,7 @@ brew 'pcre'
 brew 'gettext'
 brew 'git', args: ['with-pcre']
 brew 'go'
+brew 'glide'
 brew 'ccat'
 brew 'nkf'
 brew 'cmigemo'
