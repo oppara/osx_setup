@@ -35,3 +35,5 @@ chmod 0755 ${WP_CLI_PATH}
 composer global require "wp-coding-standards/wpcs:*"
 phpcs --config-set installed_paths ~/.composer/vendor/wp-coding-standards/wpcs/
 phpcs -i
+
+composer global show -s

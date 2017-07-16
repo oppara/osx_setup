@@ -188,12 +188,12 @@
 	<key>CursorType</key>
 	<integer>0</integer>
 	<key>EastAsianAmbiguousWide</key>
-	<false/>
+	<true/>
 	<key>Font</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGGBlYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
 	AAGGoKQHCBESVSRudWxs1AkKCwwNDg8QVk5TU2l6ZVhOU2ZGbGFnc1ZOU05hbWVWJGNs
-	YXNzI0AqAAAAAAAAEBCAAoADXxAPTWlndS0yTS1SZWd1bGFy0hMUFRZaJGNsYXNzbmFt
+	YXNzI0AqAAAAAAAAEBCAAoADXxAPbWlndS0ybS1yZWd1bGFy0hMUFRZaJGNsYXNzbmFt
 	ZVgkY2xhc3Nlc1ZOU0ZvbnSiFRdYTlNPYmplY3RfEA9OU0tleWVkQXJjaGl2ZXLRGhtU
 	cm9vdIABCBEaIy0yNzxCS1JbYmlydHZ4io+ao6qttsjL0AAAAAAAAAEBAAAAAAAAABwA
 	AAAAAAAAAAAAAAAAAADS
@@ -207,7 +207,7 @@
 	<key>Linewrap</key>
 	<true/>
 	<key>ProfileCurrentVersion</key>
-	<real>2.04</real>
+	<real>2.0499999999999998</real>
 	<key>RunCommandAsShell</key>
 	<false/>
 	<key>ScrollbackLines</key>
@@ -223,16 +223,32 @@
 	</data>
 	<key>ShouldLimitScrollback</key>
 	<integer>1</integer>
+	<key>ShouldRestoreContent</key>
+	<false/>
+	<key>ShowActiveProcessArgumentsInTabTitle</key>
+	<false/>
+	<key>ShowActiveProcessArgumentsInTitle</key>
+	<false/>
+	<key>ShowActiveProcessInTabTitle</key>
+	<false/>
 	<key>ShowActiveProcessInTitle</key>
 	<true/>
 	<key>ShowCommandKeyInTitle</key>
 	<false/>
+	<key>ShowComponentsWhenTabHasCustomTitle</key>
+	<true/>
 	<key>ShowDimensionsInTitle</key>
 	<false/>
+	<key>ShowRepresentedURLInTabTitle</key>
+	<true/>
+	<key>ShowRepresentedURLInTitle</key>
+	<true/>
+	<key>ShowRepresentedURLPathInTitle</key>
+	<true/>
 	<key>ShowShellCommandInTitle</key>
 	<false/>
 	<key>ShowTTYNameInTitle</key>
-	<true/>
+	<false/>
 	<key>ShowWindowSettingsNameInTitle</key>
 	<false/>
 	<key>TextBoldColor</key>
@@ -322,7 +338,7 @@
 	ZmZmAQEAAYY=
 	</data>
 	<key>columnCount</key>
-	<integer>180</integer>
+	<integer>202</integer>
 	<key>cyanColour</key>
 	<data>
 	BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2JqZWN0AIWEAWMChARm
