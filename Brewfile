@@ -81,7 +81,7 @@ brew 'tig'
 brew 'tmux'
 brew 'tree'
 brew 'unar'
-brew 'vim', args: ['with-lua', 'with-luajit']
+brew 'vim', args: ['with-luajit']
 brew 'wget'
 brew 'zsh', args: ['without-etcdir']
 brew 'zsh-completions'
