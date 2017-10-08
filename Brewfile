@@ -39,6 +39,7 @@ brew 'ghq'
 brew 'gibo'
 brew 'gnu-getopt'
 brew 'git-now'
+brew 'git-lfs'
 brew 'gmp'
 brew 'gnu-sed', args: ['with-default-names']
 brew 'hub'
@@ -81,7 +82,7 @@ brew 'tig'
 brew 'tmux'
 brew 'tree'
 brew 'unar'
-brew 'vim', args: ['with-lua', 'with-luajit']
+brew 'vim', args: ['with-luajit']
 brew 'wget'
 brew 'zsh', args: ['without-etcdir']
 brew 'zsh-completions'
