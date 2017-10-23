@@ -25,6 +25,7 @@ composer global require squizlabs/php_codesniffer
 composer global require phpunit/phpunit
 composer global require phpunit/phpunit-skeleton-generator
 composer global require phpmd/phpmd
+composer global require hirak/prestissimo
 
 export PATH="${PATH}:${HOME}/.composer/vendor/bin"
 
