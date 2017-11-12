@@ -179,11 +179,16 @@
 	<true/>
 	<key>CursorColor</key>
 	<data>
-	YnBsaXN0MDDUAQIDBAUGFRZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
-	AAGGoKMHCA9VJG51bGzTCQoLDA0OVU5TUkdCXE5TQ29sb3JTcGFjZVYkY2xhc3NMMC41
-	IDAuNSAwLjUAEAGAAtIQERITWiRjbGFzc25hbWVYJGNsYXNzZXNXTlNDb2xvcqISFFhO
-	U09iamVjdF8QD05TS2V5ZWRBcmNoaXZlctEXGFRyb290gAEIERojLTI3O0FITltib3Fz
-	eIOMlJegsrW6AAAAAAAAAQEAAAAAAAAAGQAAAAAAAAAAAAAAAAAAALw=
+	YnBsaXN0MDDUAQIDBAUGISJYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
+	AAGGoKUHCBMXHlUkbnVsbNUJCgsMDQ4PEBESVk5TQ01ZS1xOU0NvbXBvbmVudHNcTlND
+	b2xvclNwYWNlXxASTlNDdXN0b21Db2xvclNwYWNlViRjbGFzc08QNjAuMDU3MjY3MTI5
+	NDIgMC4wNTE5MjY0MzQwNCAwLjEzMDQzNDA5NTkgMC4xMzY2MDQ2OTg5AE8QNzAuMDU3
+	MjY3MTI5NDIgMC4wNTE5MjY0MzQwNCAwLjEzMDQzNDA5NTkgMC4xMzY2MDQ2OTg5IDEQ
+	BYACgATSFA0VFlROU0lEEAOAA9IYGRobWiRjbGFzc25hbWVYJGNsYXNzZXNcTlNDb2xv
+	clNwYWNlohwdXE5TQ29sb3JTcGFjZVhOU09iamVjdNIYGR8gV05TQ29sb3KiHx1fEA9O
+	U0tleWVkQXJjaGl2ZXLRIyRUcm9vdIABAAgAEQAaACMALQAyADcAPQBDAE4AVQBiAG8A
+	hACLAMQA/gEAAQIBBAEJAQ4BEAESARcBIgErATgBOwFIAVEBVgFeAWEBcwF2AXsAAAAA
+	AAACAQAAAAAAAAAlAAAAAAAAAAAAAAAAAAABfQ==
 	</data>
 	<key>CursorType</key>
 	<integer>0</integer>
@@ -193,17 +198,17 @@
 	<data>
 	YnBsaXN0MDDUAQIDBAUGGBlYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
 	AAGGoKQHCBESVSRudWxs1AkKCwwNDg8QVk5TU2l6ZVhOU2ZGbGFnc1ZOU05hbWVWJGNs
-	YXNzI0AqAAAAAAAAEBCAAoADXxAPbWlndS0ybS1yZWd1bGFy0hMUFRZaJGNsYXNzbmFt
-	ZVgkY2xhc3Nlc1ZOU0ZvbnSiFRdYTlNPYmplY3RfEA9OU0tleWVkQXJjaGl2ZXLRGhtU
-	cm9vdIABCBEaIy0yNzxCS1JbYmlydHZ4io+ao6qttsjL0AAAAAAAAAEBAAAAAAAAABwA
-	AAAAAAAAAAAAAAAAAADS
+	YXNzI0AuAAAAAAAAEBCAAoADXENpY2EtUmVndWxhctITFBUWWiRjbGFzc25hbWVYJGNs
+	YXNzZXNWTlNGb250ohUXWE5TT2JqZWN0XxAPTlNLZXllZEFyY2hpdmVy0RobVHJvb3SA
+	AQgRGiMtMjc8QktSW2JpcnR2eIWKlZ6lqLHDxssAAAAAAAABAQAAAAAAAAAcAAAAAAAA
+	AAAAAAAAAAAAzQ==
 	</data>
 	<key>FontAntialias</key>
 	<true/>
 	<key>FontHeightSpacing</key>
 	<real>1.1179936049887775</real>
 	<key>FontWidthSpacing</key>
-	<real>1.0766128897666931</real>
+	<real>1.0346247438524592</real>
 	<key>Linewrap</key>
 	<true/>
 	<key>ProfileCurrentVersion</key>
@@ -223,24 +228,14 @@
 	</data>
 	<key>ShouldLimitScrollback</key>
 	<integer>1</integer>
-	<key>ShouldRestoreContent</key>
-	<false/>
-	<key>ShowActiveProcessArgumentsInTabTitle</key>
-	<false/>
 	<key>ShowActiveProcessArgumentsInTitle</key>
-	<false/>
-	<key>ShowActiveProcessInTabTitle</key>
 	<false/>
 	<key>ShowActiveProcessInTitle</key>
 	<true/>
 	<key>ShowCommandKeyInTitle</key>
 	<false/>
-	<key>ShowComponentsWhenTabHasCustomTitle</key>
-	<true/>
 	<key>ShowDimensionsInTitle</key>
 	<false/>
-	<key>ShowRepresentedURLInTabTitle</key>
-	<true/>
 	<key>ShowRepresentedURLInTitle</key>
 	<true/>
 	<key>ShowRepresentedURLPathInTitle</key>
@@ -338,7 +333,7 @@
 	ZmZmAQEAAYY=
 	</data>
 	<key>columnCount</key>
-	<integer>202</integer>
+	<integer>201</integer>
 	<key>cyanColour</key>
 	<data>
 	BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2JqZWN0AIWEAWMChARm
@@ -362,7 +357,7 @@
 	ZmZmg83MTD8AAAGG
 	</data>
 	<key>rowCount</key>
-	<integer>42</integer>
+	<integer>47</integer>
 	<key>shellExitAction</key>
 	<integer>1</integer>
 	<key>type</key>
