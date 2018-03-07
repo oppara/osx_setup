@@ -41,6 +41,7 @@ brew 'gibo'
 brew 'gnu-getopt'
 brew 'git-now'
 brew 'git-lfs'
+brew 'git-secrets'
 brew 'gmp'
 brew 'gnu-sed', args: ['with-default-names']
 brew 'hub'
