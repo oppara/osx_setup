@@ -76,7 +76,7 @@ brew 'the_platinum_searcher'
 brew 'the_silver_searcher'
 brew 'tig'
 brew 'atton/customs/utf8proc'
-brew 'atton/customs/tmux'
+brew 'atton/customs/tmux', args: ['HEAD']
 brew 'tree'
 brew 'unar'
 brew 'vim'
