@@ -75,8 +75,7 @@ brew 'subversion'
 brew 'the_platinum_searcher'
 brew 'the_silver_searcher'
 brew 'tig'
-brew 'atton/customs/utf8proc'
-brew 'atton/customs/tmux', args: ['HEAD']
+brew 'tmux', args: ['with-utf8proc']
 brew 'tree'
 brew 'unar'
 brew 'vim'
