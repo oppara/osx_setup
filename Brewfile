@@ -88,6 +88,7 @@ brew 'vagrant-completion'
 brew 'vim'
 brew 'wget'
 brew 'xz'
+brew 'zplug'
 brew 'zsh', args: ['without-etcdir']
 brew 'zsh-completions'
 
