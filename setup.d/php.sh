@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -eu
 
-PHP_VERSION="7.1"
+PHP_VERSION="7.2"
 COMPOSER_URL="https://getcomposer.org/installer"
 COMPOSER_PATH="/usr/local/bin/composer"
 WP_CLI_URL="https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar"
@@ -20,11 +20,12 @@ mv composer.phar ${COMPOSER_PATH}
 
 composer selfupdate
 
+composer global require hirak/prestissimo
 composer global require stecman/composer-bash-completion-plugin dev-master
 composer global require phpunit/phpunit
 composer global require squizlabs/php_codesniffer
 composer global require phpmd/phpmd
-composer global require hirak/prestissimo
+composer global require phpstan/phpstan
 
 export PATH="${PATH}:${HOME}/.composer/vendor/bin"
 
