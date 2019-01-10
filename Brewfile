@@ -25,6 +25,7 @@ brew 'direnv'
 brew 'docker-compose-completion'
 brew 'docker-machine-completion'
 brew 'emojify'
+brew 'expect'
 brew 'findutils', args: ['with-default-names']
 brew 'fpp'
 brew 'freetype'
