@@ -37,6 +37,7 @@ brew 'gibo'
 brew 'git', args: ['with-pcre']
 brew 'git-lfs'
 brew 'git-now'
+brew 'git-open'
 brew 'git-secrets'
 brew 'glide'
 brew 'gmp'
