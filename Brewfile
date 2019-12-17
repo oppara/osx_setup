@@ -82,6 +82,7 @@ brew 'q'
 brew 'rcmdnk/rcmdnkpac/parse-plist'
 brew 'readline'
 brew 'reattach-to-user-namespace', args: ['with-wrap-launchctl', 'with-wrap-pbcopy-and-pbpaste']
+brew 'shfmt'
 brew 'sqlite'
 brew 'subversion'
 brew 'the_platinum_searcher'
