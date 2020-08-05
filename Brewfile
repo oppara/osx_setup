@@ -32,6 +32,7 @@ brew 'expect'
 brew 'findutils', args: ['with-default-names']
 brew 'fpp'
 brew 'freetype'
+brew 'fzf'
 brew 'gdbm'
 brew 'gettext'
 brew 'ghq'
