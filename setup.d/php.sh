@@ -23,6 +23,7 @@ composer selfupdate
 composer global require hirak/prestissimo
 composer global require stecman/composer-bash-completion-plugin dev-master
 composer global require phpunit/phpunit
+composer global require friendsofphp/php-cs-fixer
 composer global require squizlabs/php_codesniffer
 composer global require phpmd/phpmd
 composer global require phpstan/phpstan
