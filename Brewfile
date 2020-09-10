@@ -126,9 +126,6 @@ cask 'onyx'
 cask 'psequel'
 cask 'qlcolorcode'
 cask 'qlimagesize'
-cask 'qlmarkdown'
-cask 'qlprettypatch'
-cask 'qlstephen'
 cask 'quicklook-csv'
 cask 'quicklook-json'
 cask 'sequel-pro-nightly'
@@ -159,3 +156,4 @@ mas 'CotEditor', id: 1024640650
 mas 'Dash', id: 458034879
 mas 'Kobito', id: 896624060
 mas 'Simplenote', id: 692867256
+mas 'Glance', id: 1513574319
