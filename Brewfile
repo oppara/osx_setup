@@ -47,6 +47,7 @@ brew 'gmp'
 brew 'gnu-getopt'
 brew 'gnu-sed', args: ['with-default-names']
 brew 'go'
+brew 'hadolint'
 brew 'httpie'
 brew 'hub'
 brew 'imagemagick'
