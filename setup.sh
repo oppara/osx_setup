@@ -7,6 +7,7 @@ set -x
 # https://github.com/yveslaroche/dotfiles/blob/master/.osx
 # http://threetreeslight.com/post/58009785849/boxen-mac
 # http://baqamore.hatenablog.com/entry/2013/07/31/222438
+# https://github.com/mathiasbynens/dotfiles/blob/main/.macos
 
 # # Ask for the administrator password upfront
 sudo -v
@@ -14,14 +15,14 @@ sudo -v
 # # Keep-alive: update existing `sudo` time stamp until setup has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-# Set standby delay to 24 hours (default is 1 hour)
-sudo pmset -a standbydelay 86400
+# # Set standby delay to 24 hours (default is 1 hour)
+# sudo pmset -a standbydelay 86400
 
-# Disable the sound effects on boot
-sudo nvram SystemAudioVolume=" "
+# # Disable the sound effects on boot
+# sudo nvram SystemAudioVolume=" "
 
-# Menu bar: disable transparency
-defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false
+# # Menu bar: disable transparency
+# defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false
 
 # # Menu bar: hide User and Bluetooth icons
 # for domain in ~/Library/Preferences/ByHost/com.apple.systemuiserver.*; do
@@ -37,8 +38,8 @@ defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false
     # "/System/Library/CoreServices/Menu Extras/TextInput.menu" \
     # "/System/Library/CoreServices/Menu Extras/Clock.menu"
 
-# Set highlight color to graphite
-defaults write NSGlobalDomain AppleHighlightColor -string "0.780400 0.815700 0.858800"
+# # Set highlight color to graphite
+# defaults write NSGlobalDomain AppleHighlightColor -string "0.780400 0.815700 0.858800"
 
 # # Set sidebar icon size to small
 # defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
@@ -94,71 +95,71 @@ defaults write NSGlobalDomain AppleHighlightColor -string "0.780400 0.815700 0.8
 
 
 
-# [10.9] Tweak subpixel font rendering (https://wincent.com/wiki/AppleFontSmoothing)
-defaults -currentHost write NSGlobalDomain AppleFontSmoothing -int 1
+# # [10.9] Tweak subpixel font rendering (https://wincent.com/wiki/AppleFontSmoothing)
+# defaults -currentHost write NSGlobalDomain AppleFontSmoothing -int 1
 
-# [10.9] System Preferences -> Desktop & Screen Saver -> Transluscent menu bar -> off
-# Requires logout.
-defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false
+# # [10.9] System Preferences -> Desktop & Screen Saver -> Transluscent menu bar -> off
+# # Requires logout.
+# defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false
 
-# [10.9] Expand save panel by default
-defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
-defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
+# # [10.9] Expand save panel by default
+# defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+# defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
 
- # [10.9] Expand print panel by default
-defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
-defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
+ # # [10.9] Expand print panel by default
+# defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
+# defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
 
-# [10.9] Use plain text mode for new TextEdit documents
-defaults write com.apple.TextEdit RichText -int 0
+# # [10.9] Use plain text mode for new TextEdit documents
+# defaults write com.apple.TextEdit RichText -int 0
 
-# [10.9] Disable press-and-hold for keys in favor of key repeat
-# Requires logout.
-defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+# # [10.9] Disable press-and-hold for keys in favor of key repeat
+# # Requires logout.
+# defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
-# [10.9] Show the ~/Library folder
-chflags nohidden ~/Library
+# # [10.9] Show the ~/Library folder
+# chflags nohidden ~/Library
 
-# [10.9] Finder: disable window animations and Get Info animations
-defaults write com.apple.finder DisableAllAnimations -bool true
+# # [10.9] Finder: disable window animations and Get Info animations
+# defaults write com.apple.finder DisableAllAnimations -bool true
 
-# [10.9] Finder: allow text selection in Quick Look
-defaults write com.apple.finder QLEnableTextSelection -bool true
+# # [10.9] Finder: allow text selection in Quick Look
+# defaults write com.apple.finder QLEnableTextSelection -bool true
 
-# [10.9] Disable the warning when changing a file extension
-defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+# # [10.9] Disable the warning when changing a file extension
+# defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
-# [10.9] Disable smart quotes, dashes, ellipses
-defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
-defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+# # [10.9] Disable smart quotes, dashes, ellipses
+# defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+# defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
-# [10.9] Disable auto-correct
-defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+# # [10.9] Disable auto-correct
+# defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
-# [10.9] Finder: show all filename extensions
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+# # [10.9] Finder: show all filename extensions
+# defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
-# [10.9] Finder: allow quitting via Command-Q; doing so will also hide desktop icons
-defaults write com.apple.finder QuitMenuItem -bool true
+# # [10.9] Finder: allow quitting via Command-Q; doing so will also hide desktop icons
+# defaults write com.apple.finder QuitMenuItem -bool true
 
-# [10.9] [Don't] display full POSIX path as Finder window title
-defaults write com.apple.finder _FXShowPosixPathInTitle -bool false
+# # [10.9] [Don't] display full POSIX path as Finder window title
+# defaults write com.apple.finder _FXShowPosixPathInTitle -bool false
 
-# [10.9] Finder: show status bar
-defaults write com.apple.finder ShowStatusBar -bool true
+# # [10.9] Finder: show status bar
+# defaults write com.apple.finder ShowStatusBar -bool true
 
-# # [10.9] Finder: show path bar
-# defaults write com.apple.finder ShowPathbar -bool true
+# # # [10.9] Finder: show path bar
+# # defaults write com.apple.finder ShowPathbar -bool true
 
-# [10.9] Require password immediately after sleep or screen saver begins
-defaults write com.apple.screensaver askForPassword -int 1
-defaults write com.apple.screensaver askForPasswordDelay -int 0
+# # [10.9] Require password immediately after sleep or screen saver begins
+# defaults write com.apple.screensaver askForPassword -int 1
+# defaults write com.apple.screensaver askForPasswordDelay -int 0
 
-# [10.9] Automatically quit printer app once the print jobs complete
-defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
+# # [10.9] Automatically quit printer app once the print jobs complete
+# defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 
-# Mailの添付ファイルプレビューをOFF
-defaults write com.apple.mail DisableInlineAttachmentViewing -bool yes
+# # Mailの添付ファイルプレビューをOFF
+# defaults write com.apple.mail DisableInlineAttachmentViewing -bool yes
 
 # # [10.9] Misc `systemsetup` settings: see `man systemsetup`
 # sudo systemsetup -settimezone America/Los_Angeles
@@ -169,9 +170,14 @@ defaults write com.apple.mail DisableInlineAttachmentViewing -bool yes
 # sudo systemsetup -setrestartfreeze on
 # sudo systemsetup -setremoteappleevents off
 
+# リピート入力認識までの時間（システム環境設定からの設定の限界: 15）
+# 1 あたり 15 ms
+defaults write -g InitialKeyRepeat -int 10
+# キーのリピート（システム環境設定からの設定の限界: 2）
+defaults write -g KeyRepeat -int 1
 
-# [10.9] Disable local Time Machine snapshots
-sudo tmutil disablelocal
+# # [10.9] Disable local Time Machine snapshots
+# sudo tmutil disablelocal
 
 # for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
     # "Dock" "Finder" "Mail" "Messages" "Safari" "SizeUp" "SystemUIServer" \
