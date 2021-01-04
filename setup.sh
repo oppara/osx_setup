@@ -172,7 +172,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # リピート入力認識までの時間（システム環境設定からの設定の限界: 15）
 # 1 あたり 15 ms
-defaults write -g InitialKeyRepeat -int 10
+defaults write -g InitialKeyRepeat -int 14
 # キーのリピート（システム環境設定からの設定の限界: 2）
 defaults write -g KeyRepeat -int 1
 
