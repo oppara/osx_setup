@@ -1,14 +1,17 @@
 #!/usr/bin/env bash
 set -eu
 
-PHP_VERSION="7.2"
 WP_CLI_URL="https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar"
 WP_CLI_PATH="/usr/local/bin/wp"
 
-# https://php-osx.liip.ch/
-curl -s https://php-osx.liip.ch/install.sh | bash -s ${PHP_VERSION}
-sudo  sh -c "echo 'date.timezone = Asia/Tokyo' > /usr/local/php5/php.d/99-my.ini"
-export PATH=/usr/local/php5/bin:${PATH}
+brew tap shivammathur/php
+brew install shivammathur/php/php@5.6
+brew install shivammathur/php/php@7.0
+brew install shivammathur/php/php@7.1
+brew install shivammathur/php/php@7.2
+brew install shivammathur/php/php@7.3
+brew install shivammathur/php/php@7.4
+brew install shivammathur/php/php@8.0
 
 
 # composer
