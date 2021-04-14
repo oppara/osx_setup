@@ -2,8 +2,6 @@
 set -eu
 
 PHP_VERSION="7.2"
-COMPOSER_URL="https://getcomposer.org/installer"
-COMPOSER_PATH="/usr/local/bin/composer"
 WP_CLI_URL="https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar"
 WP_CLI_PATH="/usr/local/bin/wp"
 
@@ -14,13 +12,10 @@ export PATH=/usr/local/php5/bin:${PATH}
 
 
 # composer
-curl -sSk ${COMPOSER_URL} | php
-chmod +x composer.phar
-mv composer.phar ${COMPOSER_PATH}
+curl --silent --show-error https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 composer selfupdate
 
-composer global require hirak/prestissimo
 composer global require stecman/composer-bash-completion-plugin dev-master
 composer global require phpunit/phpunit
 composer global require friendsofphp/php-cs-fixer
