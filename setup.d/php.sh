@@ -4,6 +4,7 @@ set -eu
 WP_CLI_URL="https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar"
 WP_CLI_PATH="/usr/local/bin/wp"
 
+# https://github.com/shivammathur/homebrew-php
 brew tap shivammathur/php
 brew install shivammathur/php/php@5.6
 brew install shivammathur/php/php@7.0
