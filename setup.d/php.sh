@@ -14,6 +14,8 @@ brew install shivammathur/php/php@7.3
 brew install shivammathur/php/php@7.4
 brew install shivammathur/php/php@8.0
 
+# brew unlink php && brew link --overwrite --force php@7.4
+
 
 # composer
 curl --silent --show-error https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
