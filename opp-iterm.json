@@ -93,6 +93,7 @@
   },
   "Unlimited Scrollback" : false,
   "Custom Command" : "No",
+  "Title Components" : 6,
   "Keyboard Map" : {
     "0xf700-0x260000" : {
       "Action" : 10,
@@ -361,7 +362,7 @@
   },
   "Command" : "",
   "Terminal Type" : "xterm-256color",
-  "Horizontal Spacing" : 1.01,
+  "Horizontal Spacing" : 1,
   "Option Key Sends" : 0,
   "Only The Default BG Color Uses Transparency" : false,
   "Ansi 15 Color" : {
