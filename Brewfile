@@ -43,7 +43,6 @@ brew 'git-lfs'
 brew 'git-now'
 brew 'git-open'
 brew 'git-secrets'
-brew 'glide'
 brew 'gmp'
 brew 'gnu-getopt'
 brew 'gnu-sed', args: ['with-default-names']
