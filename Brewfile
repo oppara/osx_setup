@@ -1,161 +1,205 @@
-tap 'argon/mas'
-tap 'caskroom/cask'
-tap 'caskroom/fonts'
-tap 'caskroom/versions'
-tap 'homebrew/bundle'
-tap 'homebrew/core'
-tap 'oppara/homebrew'
-tap 'rcmdnk/rcmdnkpac'
-tap 'genkiroid/homebrew-cert'
-
-brew 'ansible'
-brew 'argon/mas/mas'
-brew 'autoconf'
-brew 'automake'
-brew 'awscli'
-brew 'ask-cli'
-brew 'bat'
-brew 'bfg'
-brew 'ccat'
-brew 'cert'
-brew 'cfn-lint'
-brew 'cloc'
-brew 'cmigemo'
-brew 'cpanminus'
-brew 'ctags'
-brew 'dep'
-brew 'direnv'
-brew 'docker-compose-completion'
-brew 'docker-machine-completion'
-brew 'emojify'
-brew 'expect'
-brew 'findutils', args: ['with-default-names']
-brew 'fpp'
-brew 'freetype'
-brew 'fzf'
-brew 'gdbm'
-brew 'gettext'
-brew 'gh'
-brew 'ghq'
-brew 'gibo'
-brew 'git', args: ['with-pcre']
-brew 'git-lfs'
-brew 'git-now'
-brew 'git-open'
-brew 'git-secrets'
-brew 'gmp'
-brew 'gnu-getopt'
-brew 'gnu-sed', args: ['with-default-names']
-brew 'go'
-brew 'hadolint'
-brew 'httpie'
-brew 'imagemagick'
-brew 'ipcalc'
-brew 'jc'
-brew 'jo'
-brew 'jpeg'
-brew 'jq'
-brew 'libevent'
-brew 'libpng'
-brew 'libtiff'
-brew 'libtool'
-brew 'libxml2'
-brew 'libxslt'
-brew 'libyaml'
-brew 'libzip'
-brew 'lua'
-brew 'luajit'
-brew 'lv'
-brew 'mysql'
-brew 'nkf'
-brew 'node'
-brew 'nspr'
-brew 'oniguruma'
-brew 'openssl'
-brew 'oppara/homebrew/kcode'
-brew 'oppara/homebrew/keyboardswitcher'
-brew 'oppara/homebrew/wcwidth'
-brew 'pandoc'
-brew 'pcre'
-brew 'pict'
-brew 'pkg-config'
-brew 'postgresql'
-brew 'python'
-brew 'q'
-brew 'rcmdnk/rcmdnkpac/parse-plist'
-brew 'readline'
-brew 'reattach-to-user-namespace', args: ['with-wrap-launchctl', 'with-wrap-pbcopy-and-pbpaste']
-brew 'rga'
-brew 'ripgrep'
-brew 'shfmt'
-brew 'sqlite'
-brew 'subversion'
-brew 'the_platinum_searcher'
-brew 'the_silver_searcher'
-brew 'tig'
-brew 'tmux', args: ['with-utf8proc']
-brew 'tree'
-brew 'unar'
-brew 'vagrant-completion'
-brew 'vim'
-brew 'wget'
-brew 'xz'
-brew 'yamllint'
-brew 'zplug'
-brew 'zsh', args: ['without-etcdir']
-brew 'zsh-completions'
-
-cask '0xed'
-cask 'alfred'
-cask 'appcleaner'
-cask 'betterzipql'
-cask 'colorpicker-plus'
-cask 'docker'
-cask 'fenix'
-cask 'firefox'
-cask 'font-cica'
-cask 'font-migu-2m'
-cask 'gitter'
-cask 'glance'
-cask 'google-chrome'
-cask 'hammerspoon'
-cask 'java'
-cask 'launchrocket'
-cask 'liteicon'
-cask 'macs-fan-control'
-cask 'maczip4win'
-cask 'onyx'
-cask 'psequel'
-cask 'qlcolorcode'
-cask 'qlimagesize'
-cask 'quicklook-csv'
-cask 'quicklook-json'
-cask 'sequel-pro-nightly'
-cask 'session-manager-plugin'
-cask 'skype'
-cask 'slack'
-cask 'spamsieve'
-cask 'suspicious-package'
-cask 'table-tool'
-cask 'the-unarchiver'
-cask 'transmit'
-cask 'vagrant'
-cask 'vagrant-manager'
-cask 'virtualbox'
-cask 'webpquicklook'
-cask 'transmission'
-cask 'mplayerx'
-cask 'youtube-to-mp3'
-cask 'vlc'
-
-mas 'Kindle', id: 405399194
-mas 'StuffIt Expander', id: 405580712
-mas 'Skitch', id: 425955336
-mas '1Password', id: 443987910
-mas 'Witch', id: 412485838
-mas 'Reeder', id: 880001334
-mas 'CotEditor', id: 1024640650
-mas 'Dash', id: 458034879
-mas 'Kobito', id: 896624060
-mas 'Simplenote', id: 692867256
-mas 'Glance', id: 1513574319
+tap "argon/mas"
+tap "aws/tap"
+tap "filosottile/musl-cross"
+tap "genkiroid/cert"
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "oppara/homebrew"
+tap "rcmdnk/rcmdnkpac"
+tap "remind101/formulae"
+tap "reviewdog/tap"
+tap "shivammathur/php"
+tap "weaveworks/tap"
+tap "yulrizka/tap"
+brew "readline"
+brew "ansible"
+brew "node"
+brew "ask-cli"
+brew "autoconf"
+brew "automake"
+brew "aws-cdk"
+brew "aws-elasticbeanstalk"
+brew "awscli"
+brew "bat"
+brew "ccat"
+brew "cfn-lint"
+brew "circleci"
+brew "cloc"
+brew "cmigemo"
+brew "coreutils"
+brew "cpanminus"
+brew "ctags"
+brew "gettext"
+brew "direnv"
+brew "docker-completion"
+brew "docker-compose-completion"
+brew "docker-machine-completion"
+brew "dog"
+brew "efm-langserver"
+brew "emojify"
+brew "expect"
+brew "findutils"
+brew "libpng"
+brew "freetype"
+brew "fpp"
+brew "libtool"
+brew "fzf"
+brew "jpeg"
+brew "libtiff"
+brew "gh"
+brew "ghq"
+brew "gibo"
+brew "git"
+brew "git-lfs"
+brew "gnu-getopt"
+brew "git-now"
+brew "git-secrets"
+brew "pcre"
+brew "glib"
+brew "gmp"
+brew "gnu-sed"
+brew "go"
+brew "hadolint"
+brew "lua"
+brew "highlight"
+brew "httpie"
+brew "hub"
+brew "hugo"
+brew "imagemagick"
+brew "intltool"
+brew "ipcalc"
+brew "ipython"
+brew "jo"
+brew "oniguruma"
+brew "jq"
+brew "krb5"
+brew "kubernetes-cli"
+brew "libevent"
+brew "libxml2"
+brew "libxslt"
+brew "libzip"
+brew "luajit"
+brew "lv"
+brew "mas"
+brew "protobuf"
+brew "mysql"
+brew "ncurses"
+brew "nkf"
+brew "nspr"
+brew "pandoc"
+brew "pkg-config"
+brew "postgresql"
+brew "q"
+brew "reattach-to-user-namespace"
+brew "ripgrep"
+brew "ripgrep-all"
+brew "shfmt"
+brew "sqlparse"
+brew "subversion"
+brew "terraform"
+brew "tflint"
+brew "the_platinum_searcher"
+brew "the_silver_searcher"
+brew "tig"
+brew "tmux"
+brew "tree"
+brew "unar"
+brew "vagrant-completion"
+brew "vim"
+brew "wget"
+brew "yamllint"
+brew "zplug"
+brew "zsh"
+brew "zsh-completions", link: false
+brew "aws/tap/copilot-cli"
+brew "filosottile/musl-cross/musl-cross"
+brew "genkiroid/cert/cert"
+brew "heroku/brew/heroku"
+brew "oppara/homebrew/kcode"
+brew "oppara/homebrew/keyboardswitcher"
+brew "oppara/homebrew/oppara-bin", args: ["HEAD"]
+brew "oppara/homebrew/wcwidth"
+brew "rcmdnk/rcmdnkpac/parse-plist"
+brew "remind101/formulae/assume-role"
+brew "reviewdog/tap/reviewdog"
+brew "shivammathur/php/php"
+brew "shivammathur/php/php@5.6"
+brew "shivammathur/php/php@7.4"
+brew "weaveworks/tap/eksctl"
+cask "0xed"
+cask "alfred"
+cask "appcleaner"
+cask "aws-vault"
+cask "colorpicker-plus"
+cask "db-browser-for-sqlite"
+cask "docker"
+cask "fenix"
+cask "firefox"
+cask "font-cica"
+cask "font-migu-1m"
+cask "font-migu-2m"
+cask "gitter"
+cask "glance"
+cask "google-chrome"
+cask "hammerspoon"
+cask "integrity"
+cask "iterm2"
+cask "karabiner-elements"
+cask "launchrocket"
+cask "liteicon"
+cask "macs-fan-control"
+cask "maczip4win"
+cask "mailtrackerblocker"
+cask "mi"
+cask "mplayerx"
+cask "ngrok"
+cask "onyx"
+cask "psequel"
+cask "qlcolorcode"
+cask "qlmarkdown"
+cask "qlprettypatch"
+cask "qlstephen"
+cask "quicklook-colorxml"
+cask "quicklook-csv"
+cask "quicklook-json"
+cask "sequel-ace"
+cask "session-manager-plugin"
+cask "skype"
+cask "slack"
+cask "spamsieve"
+cask "suspicious-package"
+cask "table-tool"
+cask "the-unarchiver"
+cask "transmission"
+cask "transmit"
+cask "vagrant"
+cask "vagrant-manager"
+cask "virtualbox"
+cask "visual-studio-code"
+cask "vlc"
+cask "webpquicklook"
+cask "xquartz"
+cask "youtube-to-mp3"
+mas "1Password", id: 443987910
+mas "Be Focused", id: 973134470
+mas "CotEditor", id: 1024640650
+mas "Display Menu", id: 549083868
+mas "ForkLift", id: 412448059
+mas "Keynote", id: 409183694
+mas "Kindle", id: 405399194
+mas "LINE", id: 539883307
+mas "Numbers", id: 409203825
+mas "Reeder", id: 1449412482
+mas "Reeder", id: 1529448980
+mas "Simplenote", id: 692867256
+mas "SiteSucker", id: 442168834
+mas "Skitch", id: 425955336
+mas "Slack", id: 803453959
+mas "StuffIt Expander", id: 405580712
+mas "TweetDeck", id: 485812721
+mas "Witch", id: 412485838
+mas "Xcode", id: 497799835
