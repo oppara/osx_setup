@@ -97,6 +97,7 @@ brew "q"
 brew "reattach-to-user-namespace"
 brew "ripgrep"
 brew "ripgrep-all"
+brew "shellcheck"
 brew "shfmt"
 brew "sqlparse"
 brew "subversion"
@@ -115,6 +116,7 @@ brew "yamllint"
 brew "zplug"
 brew "zsh"
 brew "zsh-completions", link: false
+brew "aws/tap/aws-sam-cli"
 brew "aws/tap/copilot-cli"
 brew "filosottile/musl-cross/musl-cross"
 brew "genkiroid/cert/cert"
@@ -193,7 +195,6 @@ mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "LINE", id: 539883307
 mas "Numbers", id: 409203825
-mas "Reeder", id: 1449412482
 mas "Reeder", id: 1529448980
 mas "Simplenote", id: 692867256
 mas "SiteSucker", id: 442168834
