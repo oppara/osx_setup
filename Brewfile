@@ -200,6 +200,7 @@ mas "Be Focused", id: 973134470
 mas "CotEditor", id: 1024640650
 mas "Display Menu", id: 549083868
 mas "ForkLift", id: 412448059
+mas "hide.me VPN", id: 953040671
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "LINE", id: 539883307
