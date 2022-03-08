@@ -1,3 +1,4 @@
+tap "aquasecurity/trivy"
 tap "argon/mas"
 tap "aws/tap"
 tap "filosottile/musl-cross"
@@ -249,6 +250,8 @@ brew "zplug"
 brew "zsh"
 # Additional completion definitions for zsh
 brew "zsh-completions"
+# Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues
+brew "aquasecurity/trivy/trivy"
 # AWS SAM CLI 🐿 is a tool for local development and testing of Serverless applications
 brew "aws/tap/aws-sam-cli"
 # Copilot CLI - build, release and operate your container apps on AWS
