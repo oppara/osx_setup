@@ -16,6 +16,7 @@ tap "remind101/formulae"
 tap "reviewdog/tap"
 tap "rhysd/actionlint", "https://github.com/rhysd/actionlint"
 tap "shivammathur/php"
+tap "teamookla/speedtest"
 tap "weaveworks/tap"
 tap "yulrizka/tap"
 # CLI for Amazon ECS to manage clusters and tasks for development
@@ -170,6 +171,8 @@ brew "ncurses"
 brew "lima"
 # Just-In-Time Compiler (JIT) for the Lua programming language
 brew "luajit"
+# OpenResty's Branch of LuaJIT 2
+brew "luajit-openresty"
 # Powerful multi-lingual file viewer/grep
 brew "lv"
 # Mac App Store command-line interface
@@ -244,6 +247,8 @@ brew "vim"
 brew "wget"
 # Linter for YAML files
 brew "yamllint"
+# CLI to convert between YAML, TOML, JSON and HCL
+brew "yj"
 # Next-generation plugin manager for zsh
 brew "zplug"
 # UNIX shell (command interpreter)
@@ -282,6 +287,8 @@ brew "shivammathur/php/php"
 brew "shivammathur/php/php@5.6"
 # General-purpose scripting language
 brew "shivammathur/php/php@7.4"
+# Ookla Speedtest
+brew "teamookla/speedtest/speedtest"
 # The official CLI for Amazon EKS
 brew "weaveworks/tap/eksctl"
 cask "0xed"
@@ -380,6 +387,7 @@ cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
 cask "webpquicklook"
+cask "wkhtmltopdf"
 # Open-source version of the X.Org X Window System
 cask "xquartz"
 # Downloads music from playlists or channels
