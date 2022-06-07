@@ -89,8 +89,6 @@ brew "direnv"
 brew "docker-completion"
 # Completion script for docker-compose
 brew "docker-compose-completion"
-# Create Docker hosts locally and on cloud providers
-brew "docker-machine"
 # Command-line DNS client
 brew "dog"
 # General purpose Language Server
@@ -169,10 +167,8 @@ brew "libzip"
 brew "ncurses"
 # Linux virtual machines
 brew "lima"
-# Just-In-Time Compiler (JIT) for the Lua programming language
-brew "luajit"
-# OpenResty's Branch of LuaJIT 2
-brew "luajit-openresty"
+# Fully functional local AWS cloud stack
+brew "localstack"
 # Powerful multi-lingual file viewer/grep
 brew "lv"
 # Mac App Store command-line interface
@@ -181,8 +177,6 @@ brew "mas"
 brew "mkcert"
 # Protocol buffers (Google's data interchange format)
 brew "protobuf"
-# Open source relational database management system
-brew "mysql"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Network Kanji code conversion Filter (NKF)
@@ -229,8 +223,6 @@ brew "terraform"
 brew "tflint"
 # Multi-platform code-search similar to ack and ag
 brew "the_platinum_searcher"
-# Code-search similar to ack
-brew "the_silver_searcher"
 # Text interface for Git repositories
 brew "tig"
 # Terminal multiplexer
@@ -239,8 +231,6 @@ brew "tmux"
 brew "tree"
 # Command-line unarchiving tools supporting multiple formats
 brew "unar"
-# Bash completion for Vagrant
-brew "vagrant-completion"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Internet file retriever
@@ -319,8 +309,6 @@ cask "gitter"
 cask "glance"
 # Web browser
 cask "google-chrome"
-# Desktop automation application
-cask "hammerspoon"
 # Tool to scan a website checking for broken links
 cask "integrity"
 # Terminal emulator as alternative to Apple's Terminal app
@@ -330,10 +318,9 @@ cask "karabiner-elements"
 # Open-source keystroke visualizer
 cask "keycastr"
 cask "launchrocket"
-# Tool to change system icons
-cask "liteicon"
 # Controls and monitors all fans on Apple computers
 cask "macs-fan-control"
+# Create zip files for use on Windows
 cask "maczip4win"
 # Email tracker, read receipt and spy pixel blocker plugin for Apple Mail
 cask "mailtrackerblocker"
@@ -363,8 +350,6 @@ cask "quicklook-json"
 cask "sequel-ace"
 # Plugin for AWS CLI to start and end sessions that connect to managed instances
 cask "session-manager-plugin"
-# Video chat, voice call and instant messaging application
-cask "skype"
 # Team communication and collaboration software
 cask "slack"
 # Application for inspecting installer packages
@@ -377,11 +362,6 @@ cask "the-unarchiver"
 cask "transmission"
 # File transfer application
 cask "transmit"
-# Development environment
-cask "vagrant"
-cask "vagrant-manager"
-# Virtualizer for x86 hardware
-cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
@@ -392,13 +372,11 @@ cask "wkhtmltopdf"
 cask "xquartz"
 # Downloads music from playlists or channels
 cask "youtube-to-mp3"
-mas "1Password", id: 443987910
 mas "Be Focused", id: 973134470
 mas "CotEditor", id: 1024640650
 mas "Display Menu", id: 549083868
 mas "ForkLift", id: 412448059
 mas "hide.me VPN", id: 953040671
-mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "LINE", id: 539883307
 mas "Numbers", id: 409203825
@@ -406,8 +384,6 @@ mas "Reeder", id: 1529448980
 mas "Simplenote", id: 692867256
 mas "SiteSucker", id: 442168834
 mas "Skitch", id: 425955336
-mas "Slack", id: 803453959
 mas "StuffIt Expander", id: 405580712
 mas "TweetDeck", id: 485812721
 mas "Witch", id: 412485838
-mas "Xcode", id: 497799835
