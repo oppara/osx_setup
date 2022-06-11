@@ -379,7 +379,7 @@
     "Green Component" : 0.75294119119644165
   },
   "Transparency" : 0,
-  "Initial Text" : "\/usr\/local\/bin\/tmux",
+  "Initial Text" : "\/opt\/homebrew\/bin\/tmux",
   "Background Color" : {
     "Red Component" : 0.05346169788390398,
     "Color Space" : "sRGB",
