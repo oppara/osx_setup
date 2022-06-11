@@ -6,19 +6,13 @@ WP_CLI_PATH="/usr/local/bin/wp"
 
 # https://github.com/shivammathur/homebrew-php
 brew tap shivammathur/php
-brew install shivammathur/php/php@5.6
-brew install shivammathur/php/php@7.0
-brew install shivammathur/php/php@7.1
-brew install shivammathur/php/php@7.2
-brew install shivammathur/php/php@7.3
-brew install shivammathur/php/php@7.4
-brew install shivammathur/php/php@8.0
+brew install shivammathur/php/php
 
 # brew unlink php && brew link --overwrite --force php@7.4
 
 
 # composer
-curl --silent --show-error https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+curl --silent --show-error https://getcomposer.org/installer | php -- --install-dir=/opt/homebrew/bin --filename=composer
 
 composer selfupdate
 
