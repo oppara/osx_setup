@@ -9,6 +9,8 @@ fi
 PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(anyenv init -)"
 
+anyenv install -f --force-init
+
 target="${target}/plugins/anyenv-update"
 if [ ! -d "${target}" ]; then
   git clone https://github.com/znz/anyenv-update.git "${target}"
