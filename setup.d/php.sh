@@ -27,8 +27,8 @@ export PATH="${PATH}:${HOME}/.composer/vendor/bin"
 
 
 # wordpress
-curl  ${WP_CLI_URL} -o ${WP_CLI_PATH}
-chmod 0755 ${WP_CLI_PATH}
+curl  "${WP_CLI_URL}" -o "${WP_CLI_PATH}"
+chmod 0755 "${WP_CLI_PATH}"
 
 composer global require-dev "wp-coding-standards/wpcs:*"
 phpcs --config-set installed_paths ~/.composer/vendor/wp-coding-standards/wpcs/
