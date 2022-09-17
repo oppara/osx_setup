@@ -2,7 +2,7 @@
 set -eu
 
 
-golibexec="/opt/homebrew/opt/go/libexec"
+golibexec="$(brew --prefix)/opt/go/libexec"
 PATH="$PATH:${golibexec}/bin"
 export GOPATH="${HOME}"
 export GOROOT=${golibexec}

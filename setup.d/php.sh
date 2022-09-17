@@ -2,7 +2,7 @@
 set -eu
 
 WP_CLI_URL="https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar"
-WP_CLI_PATH="/usr/local/bin/wp"
+WP_CLI_PATH="$(brew --prefix)/bin/wp"
 
 # https://github.com/shivammathur/homebrew-php
 brew tap shivammathur/php
