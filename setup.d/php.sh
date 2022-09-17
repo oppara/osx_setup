@@ -17,9 +17,9 @@ curl --silent --show-error https://getcomposer.org/installer | php -- --install-
 composer selfupdate
 
 composer global require stecman/composer-bash-completion-plugin dev-master
-composer global require phpunit/phpunit
+composer global require-dev phpunit/phpunit
 composer global require friendsofphp/php-cs-fixer
-composer global require squizlabs/php_codesniffer
+composer global require-dev squizlabs/php_codesniffer
 composer global require phpmd/phpmd
 composer global require phpstan/phpstan
 
@@ -30,7 +30,7 @@ export PATH="${PATH}:${HOME}/.composer/vendor/bin"
 curl  ${WP_CLI_URL} -o ${WP_CLI_PATH}
 chmod 0755 ${WP_CLI_PATH}
 
-composer global require "wp-coding-standards/wpcs:*"
+composer global require-dev "wp-coding-standards/wpcs:*"
 phpcs --config-set installed_paths ~/.composer/vendor/wp-coding-standards/wpcs/
 phpcs -i
 
