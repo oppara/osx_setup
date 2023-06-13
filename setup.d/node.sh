@@ -16,7 +16,8 @@ npm i --location=global eslint \
   eslint-plugin-jsx-a11y \
   eslint-plugin-vue \
   vue-eslint-parser \
-  @typescript-eslint/parser
+  @typescript-eslint/parser \
+  @typescript-eslint/eslint-plugin
 
 npm i --location=global htmllint \
   jsonlint
