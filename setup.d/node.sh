@@ -1,10 +1,6 @@
 #!/usr/bin/env bash
 set -eu
 
-# lsp
-npm i --location=global intelephense \
-  bash-language-server
-
 # eslint
 npm i --location=global eslint \
   eslint-cli \
