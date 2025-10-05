@@ -1,24 +1,33 @@
 #!/usr/bin/env bash
 set -eu
 
+npm install --location=global typescript
+
 # eslint
-npm i --location=global eslint \
+npm install --location=global \
+  eslint \
   eslint-cli \
   eslint_d \
-  eslint-config-airbnb \
   eslint-plugin-import \
-  eslint-plugin-node \
   eslint-plugin-react \
+  eslint-plugin-react-hooks \
   eslint-plugin-jsx-a11y \
+  eslint-plugin-node \
   eslint-plugin-vue \
+  eslint-config-airbnb \
   vue-eslint-parser \
   @typescript-eslint/parser \
   @typescript-eslint/eslint-plugin
 
-npm i --location=global htmllint \
-  jsonlint
+npm install --location=global \
+  prettier \
+  htmllint \
+  jsonlint \
+  stylelint \
+  stylelint-config-standard
 
-npm i --location=global textlint \
+npm install --location=global \
+  textlint \
   prh \
   @textlint-ja/textlint-rule-no-insert-dropping-sa \
   textlint-filter-rule-comments \
@@ -45,5 +54,6 @@ npm i --location=global textlint \
   textlint-rule-preset-ja-spacing \
   textlint-rule-preset-japanese \
   textlint-rule-prh \
-  textlint-rule-spellcheck-tech-word
-  # @proofdict/textlint-rule-proofdict
+  textlint-rule-spellcheck-tech-word \
+  textlint-rule-aws-service-name
+# @proofdict/textlint-rule-proofdict
