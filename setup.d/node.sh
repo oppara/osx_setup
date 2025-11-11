@@ -31,6 +31,7 @@ npm install --location=global \
   prh \
   @textlint-ja/textlint-rule-no-insert-dropping-sa \
   textlint-filter-rule-comments \
+  textlint-filter-rule-allowlist \
   textlint-rule-ja-hiragana-fukushi \
   textlint-rule-ja-hiragana-hojodoushi \
   textlint-rule-ja-no-abusage \
