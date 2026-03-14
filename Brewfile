@@ -23,7 +23,7 @@ brew "aws-cdk"
 brew "awscli"
 brew "bash"
 brew "cfn-format"
-brew "colima"
+brew "colima", restart_service: :changed
 brew "php"
 brew "composer"
 brew "coreutils"
