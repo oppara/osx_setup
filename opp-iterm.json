@@ -235,6 +235,7 @@
   "Bound Hosts" : [
 
   ],
+  "Load Shell Integration Automatically" : true,
   "Non Ascii Font" : "Monaco 12",
   "Ansi 13 Color" : {
     "Red Component" : 0.80000001192092896,
