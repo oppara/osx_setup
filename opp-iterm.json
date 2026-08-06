@@ -25,6 +25,7 @@
     "Green Component" : 0.87881530785771678
   },
   "Right Option Key Sends" : 0,
+  "Show Status Bar" : false,
   "Character Encoding" : 4,
   "Selection Color" : {
     "Red Component" : 0.13318783789873123,
@@ -56,6 +57,31 @@
   "Scrollback Lines" : 1000,
   "Scrollback in Alternate Screen" : false,
   "Draw Powerline Glyphs" : true,
+  "Status Bar Layout" : {
+    "components" : [
+      {
+        "class" : "iTermStatusBarHostnameComponent",
+        "configuration" : {
+          "knobs" : {
+            "base: priority" : 5,
+            "path" : "hostname",
+            "base: compression resistance" : 1
+          },
+          "layout advanced configuration dictionary value" : {
+            "auto-rainbow style" : 0,
+            "algorithm" : 0,
+            "remove empty components" : false
+          }
+        }
+      }
+    ],
+    "advanced configuration" : {
+      "remove empty components" : false,
+      "font" : ".AppleSystemUIFont 12",
+      "algorithm" : 0,
+      "auto-rainbow style" : 0
+    }
+  },
   "Brighten Bold Text" : true,
   "Flashing Bell" : false,
   "Cursor Guide Color" : {
@@ -73,10 +99,8 @@
     "Alpha Component" : 1,
     "Green Component" : 0.85490196943283081
   },
-  "Icon" : 1,
-  "Use Non-ASCII Font" : false,
-  "Use Custom Tab Title" : false,
-  "Shortcut" : "",
+  "Open Password Manager Automatically" : false,
+  "Icon" : 0,
   "Link Color" : {
     "Red Component" : 0,
     "Color Space" : "sRGB",
@@ -84,6 +108,9 @@
     "Alpha Component" : 1,
     "Green Component" : 0.35916060209274292
   },
+  "Shortcut" : "",
+  "Use Non-ASCII Font" : false,
+  "Use Custom Tab Title" : false,
   "Background Image Location" : "",
   "Bold Color" : {
     "Red Component" : 0.98039215803146362,
@@ -184,6 +211,7 @@
   },
   "Smart Cursor Color" : false,
   "Ambiguous Double Width" : false,
+  "Enable Progress Bars" : true,
   "Ansi 0 Color" : {
     "Red Component" : 0.20392157137393951,
     "Color Space" : "sRGB",
