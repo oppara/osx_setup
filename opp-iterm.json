@@ -17,6 +17,7 @@
     "Green Component" : 0.75294119119644165
   },
   "Use Italic Font" : true,
+  "Use libtickit protocol" : false,
   "Foreground Color" : {
     "Red Component" : 0.89077901840209961,
     "Color Space" : "sRGB",
@@ -68,9 +69,9 @@
             "base: compression resistance" : 1
           },
           "layout advanced configuration dictionary value" : {
+            "remove empty components" : false,
             "auto-rainbow style" : 0,
-            "algorithm" : 0,
-            "remove empty components" : false
+            "algorithm" : 0
           }
         }
       }
@@ -233,7 +234,7 @@
   "Command" : "",
   "Terminal Type" : "xterm-256color",
   "Horizontal Spacing" : 1.01,
-  "Option Key Sends" : 0,
+  "Option Key Sends" : 2,
   "Only The Default BG Color Uses Transparency" : false,
   "Ansi 15 Color" : {
     "Red Component" : 0.88235294818878174,
